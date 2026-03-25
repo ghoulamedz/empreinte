@@ -9,3 +9,19 @@ Ecological footprint (abbreviated EF) :
 =>Because we're enforcing that the Average user in our app ≈ Average Tunisian in reality we stay statistically aligned with reality, even if it's simplified.
 => used in this work :
 - data from : https://www.footprintnetwork.org/
+
+#IGNORE THIS (just learning markdown ;) )
+# My App
+
+This is a **Flutter web app**.
+
+## Features
+- Fast
+- Responsive
+- Clean UI
+
+## Usage
+ ![data_gfn](assets/images/datagfn.png)
+ ![fodaf](assets/images/fodaf.png)
+ ![york](assets/images/york.png)
+ ![gfn](assets/images/gfn.png)
