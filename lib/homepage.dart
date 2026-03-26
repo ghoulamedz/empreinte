@@ -1,4 +1,5 @@
 import 'package:empreinte/quiz_page.dart';
+import 'package:empreinte/readme.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -7,6 +8,19 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        actions: [
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const ReadmePage()),
+              );
+            },
+            child: const Text('معلومات تقنية'),
+          ),
+        ],
+      ),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(24),
@@ -21,7 +35,7 @@ class HomePage extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               Text(
-                '"انقر على "بدء الاختبار"',
+                '"انقر على "بدء الاختبار',
                 style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).colorScheme.onSurfaceVariant,
